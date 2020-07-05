@@ -7,13 +7,25 @@ a {
   color: inherit;
 }
   a:hover {color: darkolivegreen;
+    border-radius: 1em;
+    border-style: solid;
+    border-color: #ff00ff;
+    color:#f3e367;
+    border-width: 2px;
 }
-#me {
-  border-radius: 20px;
-  width: 70%;
-  height: 400px;
-  margin: 50px auto;
-background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+body {
+  background-image: url(https://github.com/camandche/camandche.github.io.git/images/WellingtonPort.png);
+}
+h1 {
+  background-color: green;
+}
+
+div {
+  background-color: lightblue;
+}
+
+p {
+  background-image: url();
 }
 .topnav {
   position: right;
@@ -29,9 +41,8 @@ background-color: hsl(180, 80%, 25%);
 
  h1 {
   font-family: 'Berkshire Swash', cursive;
-
   text-indent: 10px;
-   padding-top: 10px;
+  padding-top: 10px;
  }
 
  nav ul {
@@ -52,5 +63,8 @@ background-color: hsl(180, 80%, 25%);
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-  cursor: pointer;
+}
+.grid
+{
+
 }

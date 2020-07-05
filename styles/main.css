@@ -1,36 +1,54 @@
 a {
-  padding-top: 5em;
-  padding-right: 2em;
-  padding-bottom: 5em;
-  padding-left: 2em;
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
   text-decoration: none;
   color: inherit;
 }
   a:hover {color: darkolivegreen;
-    border-radius: 1em;
+    border-radius: 10px;
     border-style: solid;
     border-color: #ff00ff;
-    color:#f3e367;
+    color:darkblue;
+    margin: 10px 20px 10px 20px;
+}
+.grid{
+  max-width: 800px;
+  margin-left: auto;
+      margin-right: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 200px);
+}
+.grid a {
+    color: #968503;
+    font-size: 16pt;
+    padding: 10px;
+    margin: 0.5em;
+    border-radius: 0.5em;
+    border-style: solid;
+    border-width: 10em;
+    border-color: #011f27;
+    max-width: 10px;
+    align-self: center;    
+}
+.grid a:hover{ 
+    background-color:olivedrab;
+    border-color: #011f27;
+    border-style: solid;
     border-width: 2px;
-}
-body {
-  background-image: url(https://github.com/camandche/camandche.github.io.git/images/WellingtonPort.png);
-}
+    color: #f3e367;
+ }
 h1 {
-  background-color: green;
+  background-color: purple;
+  font-family: 'Berkshire Swash', cursive;
+  text-indent: 10px;
+  padding-top: 10px;
 }
 
 div {
   background-color: lightblue;
 }
-
-p {
-  background-image: url();
-}
-.topnav {
-  position: right;
-  
- }
  header {
    background-color: hsl(93, 76%, 37%);
    color: #FFFFFF;
@@ -38,13 +56,6 @@ p {
  nav {
 background-color: hsl(180, 80%, 25%);
  }
-
- h1 {
-  font-family: 'Berkshire Swash', cursive;
-  text-indent: 10px;
-  padding-top: 10px;
- }
-
  nav ul {
    margin: 0px;
    padding: 5px 0px 5px 30px;
@@ -63,8 +74,4 @@ background-color: hsl(180, 80%, 25%);
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-}
-.grid
-{
-
-}
+ }

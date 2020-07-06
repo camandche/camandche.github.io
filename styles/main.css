@@ -1,6 +1,7 @@
 html, body {
   height: 100%;
-  margin:0;
+  margin-left: 20 em;
+  margin-right: 20 em;
   border-color: #011f27;
 }
 a {
@@ -114,4 +115,3 @@ background-color: hsl(180, 80%, 25%);
   max-height: 425px;
   align-items: right;
  }
-.me

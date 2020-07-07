@@ -116,3 +116,9 @@ background-color: hsl(180, 80%, 25%);
   max-height: 425px;
   align-items: right;
  }
+ #whanau {
+display: flex;
+justify-content: center;
+width: 640px;
+height: 425px;
+ }

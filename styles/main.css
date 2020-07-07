@@ -72,6 +72,7 @@ div {
  header {
    background-color: hsl(93, 76%, 37%);
    color: #FFFFFF;
+   padding-bottom: 1.5em;
  }
  nav {
 background-color: hsl(180, 80%, 25%);

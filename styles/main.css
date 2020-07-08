@@ -1,7 +1,8 @@
 html, body {
   height: 100%;
-  margin-left: 20 em;
-  margin-right: 20 em;
+  width: auto;
+  margin-left: 10 em;
+  margin-right: 10 em;
   border-color: #011f27;
 }
 a {
@@ -25,7 +26,6 @@ a {
   max-height: 425px;
   text-align: center;
 }
-<!-- grid-template-columns: repeat(auto-fill, 800px);
 .grid{
   max-width: 800px;
   margin-left: auto;
@@ -71,7 +71,7 @@ div {
   background-color: lightblue;
 }
  header {
-   background-color: hsl(93, 76%, 37%);
+   background-color: hsl(93, 39%, 50%);
    color: #FFFFFF;
    padding-bottom: 1.5em;
  }
@@ -121,14 +121,17 @@ background-color: hsl(180, 80%, 25%);
   align-items: right;
  }
  .whanau {
-display: flex;
-justify-content: space-between;
-margin: 5px 5px 5px 5px;
-padding: 10px 10px 10px 10px;
-width: 300px;
-height: 200px;
- }
+   justify-content: space-evenly;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  width: 980px;
+  height: 1050px;
+}
 .grid-wrapper {
-  height: auto;
-  width: fit-content;
+  justify-content: space-around;
+  margin-left: 15em;
+  margin-right: 15em;
+  background-image: image("images/WellingtonPort.png");
+  width: 980px;
+  height: 1050px;
 }

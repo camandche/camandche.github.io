@@ -25,12 +25,12 @@ a {
   max-height: 425px;
   text-align: center;
 }
+<!-- grid-template-columns: repeat(auto-fill, 800px);
 .grid{
   max-width: 800px;
   margin-left: auto;
       margin-right: auto;
       display: grid;
-      grid-template-columns: repeat(auto-fill, 800px);
 }
 .grid a {
     color: #968503;
@@ -51,6 +51,7 @@ a {
     border-width: 2px;
     color: #f3e367;   
  }
+ -->
 h1 {
   background-color: purple;
   font-family: 'Berkshire Swash', cursive;
@@ -103,10 +104,13 @@ background-color: hsl(180, 80%, 25%);
    height: 1000px;
    width: 900px;
  }
+ <!--
  .wrapper {
    min-height: 100%;
    margin-bottom: -50px;
  }
+ -->
+
  .blueviolet-border {
   border-color:blueviolet;
   border-width: 5px;
@@ -116,9 +120,15 @@ background-color: hsl(180, 80%, 25%);
   max-height: 425px;
   align-items: right;
  }
- #whanau {
+ .whanau {
 display: flex;
-justify-content: center;
-width: 640px;
-height: 425px;
+justify-content: space-between;
+margin: 5px 5px 5px 5px;
+padding: 10px 10px 10px 10px;
+width: 300px;
+height: 200px;
  }
+.grid-wrapper {
+  height: auto;
+  width: fit-content;
+}

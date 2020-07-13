@@ -5,6 +5,13 @@ html, body {
   margin-right: 5 em;
   border-color: #011f27;
 }
+body {
+margin:0;
+background-image: "images/MarlboroughSounds.png" alt="Looking at Marlborough Sounds from the Taxi Boat";
+background-size: cover;
+padding: 11vw;
+border-radius: 10px;
+}
 a {
   padding: 10px 20px 10px 20px;
   text-decoration: none;
@@ -54,7 +61,7 @@ a {
  -->
 h1 {
   background-color: purple;
-  font-family: 'Berkshire Swash', cursive;
+  font-family: 'Poiret One', cursive;
   text-indent: 10px;
   padding-top: 10px;
 }
@@ -69,6 +76,8 @@ h3 {
 }
 div.whanau {
   background-color: lightblue;
+  display: grid;
+  box
   margin-left: 5em;
   margin-right: 5em;
   padding-left: 8em;
@@ -135,10 +144,11 @@ background-color: hsl(180, 80%, 25%);
   height: 1050px;
 }
 .grid-wrapper {
-  justify-content: space-around;
-  margin-left: 15em;
-  margin-right: 15em;
-  background-image: image("images/WellingtonPort.png");
-  width: 980px;
-  height: 1050px;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+  align-content: center;
+  padding-bottom: 1rem;
+}
+footer {
+text-align: center;
 }

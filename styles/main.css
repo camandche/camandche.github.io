@@ -10,12 +10,8 @@ html {
   background-color: #f7f8fc;
 }
 body {
-margin: 0;
+margin-left: 250px;
 background-size: cover;
-padding: 5vw;
-margin-left: 10 vw;
-margin-right: 10 vw;
-border-radius: 20px;
 }
 a {
   padding: 10px 20px 10px 20px;
@@ -87,7 +83,6 @@ div.whanau {
   height: 550px;
 }
  header {
-  margin-left: 250px;
   background-color: hsl(93, 39%, 50%);
   color: #FFFFFF;
   padding-bottom: 0.5em;
@@ -127,7 +122,6 @@ div.whanau {
    margin-right: 20px;
  }
  main {
-   margin-left: 250px;
    padding: 10px;
  }
  .button {
@@ -197,4 +191,10 @@ opacity: 1;
 
 footer {
 text-align: center;
+}
+.contactable {
+  box-shadow: yellow;
+  margin: 10px 20px 10px 20px;
+  padding: 20px;
+  width: 20 em;
 }

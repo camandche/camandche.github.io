@@ -198,3 +198,9 @@ text-align: center;
   padding: 20px;
   width: 20 em;
 }
+iframe {
+  align-content: center;
+}
+p {
+  text-align: justify;
+}

@@ -1,6 +1,13 @@
 * {
   box-sizing: border-box;
 }
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: .75rem 1.25rem;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,.125);
+}
 html {
   height: 100%;
   width: auto;

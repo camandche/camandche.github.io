@@ -44,21 +44,4 @@ function checkCalled(event) {
       inflatLevel2 = 0
     }
   }
-
-
-
 }
-unicorn0();
-//Replace placeholder images with 'unicorn-0' in HTML
-//Write function that gets called every time you click on one of the unicorns
-//Use the 'onclick' method to call it (.onClick - pt 2 a fx, get reference)
-//Console.log & check in Dev Tools console to see if worked or not
-//Upon click the button, yur function should change the image of the unicorn to the next image (incrementing up by 1)
-//Check 'How do I change an HTML image using JS'?
-//Change the unicorn image in order; this needs to keep track of the current order number
-//Create variable & store unicorn in single object state or array where e.g.
-// var unicorn1 = 0 or
-// var unicorn1 = "empty"
-//Cycling through all images an alert should pop up saying something like, "Unicorn Number x says thank you!"
-//Or instead of popping up an alert, what else could happen?
-//Add sound effect

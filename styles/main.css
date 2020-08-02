@@ -109,11 +109,11 @@ header {
   padding-bottom: 0.5em;
 }
 nav {
-  font-family: 'Lobster Two', cursive;
+  font-family: 'Lobster', cursive;
   position: fixed;
   top: 0;
   left:0;
-  width: 200px;
+  width: 250px;
   height: 100%;
   background-color: hsl(93, 39%, 50%);
   display:flex;

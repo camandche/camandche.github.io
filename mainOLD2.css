@@ -19,6 +19,7 @@ html {
 body {
 margin-left: 250px;
 background-size: cover;
+justify-content: center;
 }
 a {
   padding: 10px 20px 10px 20px;
@@ -35,17 +36,11 @@ a:hover {color: darkolivegreen;
   color:darkblue;
   text-align: center;
 }
-.grid {
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  display: grid;
-}
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
   grid-template-rows: auto auto;
-  background-color: #968503;
+  background-color: #2196F3;
   padding: 10px;
 }
 .grid-item {
@@ -55,26 +50,31 @@ a:hover {color: darkolivegreen;
   font-size: 30px;
   text-align: center;
 }
+.grid {
+  max-width: 800px;
+  margin-left: auto;
+      margin-right: auto;
+      display: grid;
+}
 .grid a {
-  color: #968503;
-  font-size: 16pt;
-  padding: 10px;
-  margin: 0.5em;
-  border-radius: 0.5em;
-  border-style: solid;
-  border-width: 10em;
-  border-color: #011f27;
-  max-width: 10px;
-  align-self: center;    
+    color: #968503;
+    font-size: auto;
+    padding: 10px;
+    margin: 0.5em;
+    border-radius: 0.5em;
+    border-style: solid;
+    border-width: 10em;
+    border-color: #011f27;
+    max-width: 10px;
+    align-self: center;    
 }
 .grid a:hover{ 
-  background-color:olivedrab;
-  border-color: #011f27;
-  border-style: solid;
-  border-width: 2px;
-  color: #011f27;   
+    background-color:olivedrab;
+    border-color: #011f27;
+    border-style: solid;
+    border-width: 2px;
+    color: #011f27;   
 }
-
 h1 {
   background-color: purple;
   color: #FFFFFF;
@@ -113,7 +113,7 @@ nav {
   position: fixed;
   top: 0;
   left:0;
-  width: 200px;
+  width: 150px;
   height: 100%;
   background-color: hsl(93, 39%, 50%);
   display:flex;
@@ -169,14 +169,19 @@ main {
 .blurb {
   margin: 500px, 200px, 500px, 200px;
 }
-.container {
-  height: 1000px;
-  width: 900px;
+.container-fluid {
+  display: grid;
+  grid-area: 1 / 1 / 6 / 6;
+  width: 100%;
+}
+.row {
+  float: left;
 }
 .wrapper {
   min-height: 100%;
   margin-bottom: -50px;
 }
+
 .blueviolet-border {
   border-color:blueviolet;
   border-width: 5px;
@@ -200,13 +205,14 @@ main {
   padding-bottom: 1rem;
 }
 .wrapperimage {
-object-fit: cover;
+object-fit: contain;
 height: 200px;
-width: 100%;
+width: 50%;
 border-radius: 10px;
 opacity: 1;
+width: 640px;
+height: 425px;
 }
-
 footer {
 text-align: center;
 }
@@ -222,7 +228,9 @@ iframe {
 p {
   text-align: justify;
 }
-img {
-  width: 640px;
-  height: 425px;
+.blurb {
+  float: left;
 }
+img {
+  display: block;
+}  

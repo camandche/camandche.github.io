@@ -182,8 +182,8 @@ main {
   border-width: 5px;
   border-style: solid;
   border-radius: 50%;
-  max-width: 400px;
-  max-height: 425px;
+  max-width: 150px;
+  max-height: 300px;
   align-items: right;
 }
 .whanau {

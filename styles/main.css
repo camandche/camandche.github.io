@@ -1,18 +1,23 @@
-@media only screen and (max-width: 320px), (orientation:portrait) {
-  .column {
-    width: 100%;
-  }
+/* Media query - Mobile Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px) 
+  and (orientation: portrait) {
+    background-color: yellow;
 }
-@media only screen and (max-width: 768px), (orientation:portrait) {
-  .column {
-    width: 100%;
-  }
+/* Media query - Tablet Portrait */
+  @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) {
+    background-color: green;
 }
-@media only screen and (min-width: 1200px), (orientation:portrait) {
-  .column {
-    width: 100%;
+/* Media query - Laptop Portrait */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) { 
+    background-color: blue;
   }
-}
 
 * {
   box-sizing: border-box;
